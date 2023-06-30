@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/aa1a49a521.js" crossorigin="anonymous"></script>
+    <title>Verulam Day and Frail Care Centre</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <h1 style="text-align: center;">Verulam Day and Frail Care Centre</h1>
+ 
+    <!--aligns the logo to the center of the page-->
+    <div style="text-align: center;">
+        <img src="Images/Logo.jpg" alt="Logo" width="220" height="220" style="vertical-align: middle; max-width:100%;">
+    </div>
+    
+    <br>
+ 
+    <!--creates the navigation bar with links to the different pages-->
+    <div class="topnav">
+        <div class="main">
+            <a href="Services.html">Services</a>
+            <a href="About.html">About us</a>
+            <a href="Contact.html">Contact us</a>
+            <a href="Donation.html">Donation</a>
+            <a href="Gallery.html">Gallery</a>
+        </div>
+    </div>
+
+    <br>
+
+    <h2 style="text-align: center;">24-hour services offered to the aged and frail</h2>
+
+    <!--aligns pictures next to each other, in the center of the page-->
+    <div style="text-align: center;">
+        <img src="Images/Home1.jpg" alt="Home1" width="440" height="390" style="vertical-align: bottom; max-width:100%;">
+        <img src="Images/Home2.jpg" alt="Home2" width="450" height="390" style="vertical-align: bottom; max-width:100%;">
+        <img src="Images/Home3.jpg" alt="Home3" width="450" height="390" style="vertical-align: bottom; max-width:100%;">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 style="text-align: center; background-color: rgb(240, 202, 170); color:white;">About us</h1>
+
+    <br>
+
+    <p style="text-align: center;">Before the centre, the elderly would meet at the Verulam Town Hall and once numbers began to increase, a group of businessmen approached the Local Municipality to build a Centre for the elderly.</p>
+    <p style="text-align: center;">This is where the story of The Verulam Day and Frail Care Centre began.</p>
+
+    <br>
+    <br>
+
+    <!--creates a button that allows the user to click on it and go to the respective page-->
+    <div class="button-center">
+        <button onclick="window.location.href = 'About.html';">Read more</button>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1 style="text-align: center; background-color: rgb(240, 202, 170);color: white;">Services</h1>
+
+    <br>
+    
+    <!--creates a list in the center of the page-->
+    <div class="container">
+        <ul class="myUL">
+            <li>Service Centre</li>
+            <li>Social Work Services</li>
+            <li>Geriatric Clinic</li>
+        </ul>
+    </div>
+
+    <!--aligns pictures next to each other, in the center of the page-->
+    <div style="text-align: center;">
+        <img src="Images/HServices.jpg" alt="HServices" width="340" height="340" style="vertical-align: bottom; max-width:100%;">
+        <img src="Images/HServices1.jpg" alt="HServices1" width="340" height="340" style="vertical-align: bottom; max-width:100%;">
+    </div>
+
+    <br>
+    <br>
+
+    <!--creates a button that allows the user to click on it and go to the respective page-->
+    <div class="button-center">
+        <button onclick="window.location.href = 'Services.html';">Read more</button>
+    </div>
+
+    <br>
+    <br>   
+    <br>
+    
+    <h1 style="text-align: center; background-color: rgb(240, 202, 170);color: white;">Contact us</h1>
+
+    <br>
+
+    <!--icons are created-->
+    <i class="fas fa-phone"></i>
+    <p>Telephone: 032 533 7538/ 032 533 0201</p>
+    <br>
+    <i class="fas fa-map-marker-alt"></i>
+    <p>Address: 100 Todd Street, Brindhaven, Verulam, 4339, South Africa</p>    
+
+    <br>
+    <br>
+
+    <!--creates a button that allows the user to click on it and go to the respective page-->
+    <div class="button-center">
+        <button onclick="window.location.href = 'Contact.html';">Read more</button> 
+    </div>
+
+    <br>
+    <br>
+    <br>   
+    <br>
+
+    <h1 style="text-align: center; background-color: rgb(240, 202, 170);color: white;">Events</h1>
+
+    <br>
+
+    <!--creates a list in the center of the page-->
+    <div class="container">
+    <ul class="myUL">
+        <li>Annual Golf Day and Dinner and Dance</li>
+        <li>Jumble sales</li>
+        <li>Sale of arts and crafts</li>
+        <li>Old is Gold Club</li>
+    </ul>
+    </div>
+
+    <!-- A button to open the popup form -->
+    <button class="open-button" onclick="openForm()" style="font-size: 18px;">Subscribe to our newsletter</button>
+
+    <!-- The form -->
+    <div class="form-popup" id="myForm" style="justify-content:center;">
+        <form action="/action_page.php" class="form-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZAyYzkxIhWcO2rG7cl9qsfUpeFPRaSwyQfcP8-1X-7S3-lA/viewform?embedded=true" width="640" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="footer">
+
+        <p>Verulam Day and Frail Care Centre</p>
+        <p>Copyright 1983</p>
+        <p>welfare@vlmfrailcare.org.za</p>
+    </div>
+
+</body>
+</html>

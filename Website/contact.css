@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: black;
+}
+
+header{
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(245, 177, 177);
+}
+
+.topnav a{
+    float: left;
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 18px 107.5px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+}
+
+.column.middle{
+    padding: 27px;
+    height: 70vh;
+    width: 70vw;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 1300px;
+    position: absolute;
+    left:50%;
+    margin-left: -3px;
+    top: 30;
+}
+
+.form-container {
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+    font-size: 1rem;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 82.5%;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    background: grey;
+    line-height: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid grey;
+    margin-top: 25px;
+    text-align: center;
+}
+
+button:hover {
+    color: black;
+    background: #fff;
+}
+
+.errors {
+    display: block;
+    color: red;
+    margin-top: 5px;
+}
+
+
+
+.footer{
+    background-color: rgb(245, 177, 177);
+    padding: 10px;
+    text-align: center;
+}
+
+@media (300px <= width <= 600px) {
+    body{
+        background-color: white;
+    }
+
+    i{
+        color: black;
+        display: flex;
+    }
+
+    h1{
+        color: black;
+    }
+
+    h2{
+        color: black;
+    }
+
+    h3{
+        color: black;
+    }
+
+    label{
+        color: black;
+        display: block;
+        margin-top: 1.5vw;
+    }
+
+    p{
+    font-size: 30px;
+    color: black;
+    }
+
+    li{
+        font-size: 30px;
+        color: black;
+    }
+
+    .form-container{
+        width: 90%;
+        height: 20vh;
+        display:flex;
+        margin-left: -30px;
+    }
+
+    .column.middle{
+        padding: 5vw;
+        height: 70vh;
+        width: 70vw;
+    }
+
+    input, textarea{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+
+    iframe{
+        width: 60%;
+    }
+
+    .vl {
+        border-left: 0.3vw solid white;
+        height: 100vh;
+        position: absolute;
+        left: 50%;
+        margin-left: -0.15vw;
+    }  
+
+    button {
+        height: 5vw;
+        border-radius: 5px;
+        color: #fff;
+        background: grey;
+        line-height: 1.2vw;
+        cursor: pointer;
+        border: 1px solid grey;
+        margin: 2%;
+    }
+}
